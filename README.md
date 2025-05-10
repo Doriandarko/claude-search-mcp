@@ -19,7 +19,7 @@ This MCP (Model Context Protocol) server provides web search capabilities using 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Doriandarko/claude-search-mcp.git
     cd claude-search-mcp
     ```
 
