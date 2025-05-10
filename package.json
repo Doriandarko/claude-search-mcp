@@ -1,0 +1,30 @@
+{
+  "name": "claude-search-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that provides Claude web search functionality",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-server-claude-search": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.17.0",
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "shx": "^0.3.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
