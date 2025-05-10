@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables and config
+.env
+claude_desktop_config.json
+
+# OS files
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
