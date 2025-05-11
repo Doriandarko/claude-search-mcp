@@ -2,6 +2,10 @@
 
 This MCP (Model Context Protocol) server provides web search capabilities using the Claude API. It allows LLMs to access up-to-date information from the web through a standardized interface.
 
+<a href="https://glama.ai/mcp/servers/@Doriandarko/claude-search-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Doriandarko/claude-search-mcp/badge" alt="Claude Web Search Server MCP server" />
+</a>
+
 ## Features
 
 - Web search tool using Claude's web search API
