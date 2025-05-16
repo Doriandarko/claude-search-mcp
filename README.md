@@ -1,5 +1,7 @@
 # Claude Web Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Doriandarko/claude-search-mcp)](https://smithery.ai/server/@Doriandarko/claude-search-mcp)
+
 This MCP (Model Context Protocol) server provides web search capabilities using the Claude API. It allows LLMs to access up-to-date information from the web through a standardized interface.
 
 ## Features
@@ -17,6 +19,15 @@ This MCP (Model Context Protocol) server provides web search capabilities using 
 
 ## Installation & Setup
 
+### Installing via Smithery
+
+To install Claude Web Search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Doriandarko/claude-search-mcp):
+
+```bash
+npx -y @smithery/cli install @Doriandarko/claude-search-mcp --client claude
+```
+
+### Manual Installation
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Doriandarko/claude-search-mcp.git
